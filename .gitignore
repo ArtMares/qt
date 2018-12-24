@@ -21,3 +21,6 @@ Mfile*
 /internal/examples/**/deploy
 /internal/examples/**/moc*
 /internal/examples/**/rcc*
+
+# JetBrains IDE Project Files
+.idea
