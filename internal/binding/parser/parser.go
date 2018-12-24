@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"github.com/ArtMares/qt/internal/utils"
 )
 

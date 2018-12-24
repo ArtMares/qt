@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 
 	"github.com/ArtMares/qt/internal/cmd"
 	"github.com/ArtMares/qt/internal/utils"
