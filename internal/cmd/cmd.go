@@ -20,7 +20,8 @@ var buildVersion = "no build version"
 
 func ParseFlags() bool {
 	if runtime.GOOS == "windows" {
-		utils.Log.SetFormatter(&logrus.TextFormatter{DisableColors: true})
+		utils.Log.Formatter = &logrus.TextFormatter{DisableColors: true}
+		//utils.Log.SetFormatter(&logrus.TextFormatter{DisableColors: true})
 	}
 	var (
 		debug      = flag.Bool("debug", false, "print debug logs")
