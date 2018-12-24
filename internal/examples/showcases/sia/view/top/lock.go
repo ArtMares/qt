@@ -1,9 +1,9 @@
 package top
 
 import (
-	"github.com/therecipe/qt/quick"
+	"github.com/ArtMares/qt/quick"
 
-	"github.com/therecipe/qt/internal/examples/showcases/sia/view/top/controller"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/view/top/controller"
 )
 
 func init() { lockTemplate_QmlRegisterType2("TopTemplate", 1, 0, "LockTemplate") }

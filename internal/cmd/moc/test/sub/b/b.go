@@ -1,6 +1,6 @@
 package b
 
-import "github.com/therecipe/qt/core"
+import "github.com/ArtMares/qt/core"
 
 type StructSubGoB struct{}
 type StructSubMocB struct{ core.QObject }

@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 func Check(target string, docker, vagrant bool) {

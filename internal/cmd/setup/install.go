@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/binding/templater"
+	"github.com/ArtMares/qt/internal/binding/parser"
+	"github.com/ArtMares/qt/internal/binding/templater"
 
-	"github.com/therecipe/qt/internal/cmd"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/cmd"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 func Install(target string, docker, vagrant bool) {
@@ -103,7 +103,7 @@ func Install(target string, docker, vagrant bool) {
 			cmd = exec.Command(filepath.Join(utils.GOBIN(), "gopherjs"), "install")
 		}
 
-		cmd.Args = append(cmd.Args, fmt.Sprintf("github.com/therecipe/qt/%v", strings.ToLower(module)))
+		cmd.Args = append(cmd.Args, fmt.Sprintf("github.com/ArtMares/qt/%v", strings.ToLower(module)))
 
 		if target == "js" {
 			cmd.Args = append(cmd.Args, "-v")

@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/therecipe/qt/internal/cmd/rcc"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/cmd/rcc"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 //linux

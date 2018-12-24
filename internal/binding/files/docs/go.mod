@@ -1,1 +1,1 @@
-module github.com/therecipe/qt/internal/binding/files/docs
+module github.com/ArtMares/qt/internal/binding/files/docs

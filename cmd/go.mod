@@ -1,4 +1,4 @@
-module github.com/therecipe/qt/cmd
+module github.com/ArtMares/qt/cmd
 
 require (
 	github.com/sirupsen/logrus v1.2.0 // indirect

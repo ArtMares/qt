@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 var (
@@ -102,7 +102,7 @@ func GetImports(path, target, tagsCustom string, level int, onlyDirect, moc bool
 				wg.Done()
 			}()
 
-			if strings.Contains(l, "github.com/therecipe/qt") && !strings.Contains(l, "qt/internal") {
+			if strings.Contains(l, "github.com/ArtMares/qt") && !strings.Contains(l, "qt/internal") {
 				return
 			}
 

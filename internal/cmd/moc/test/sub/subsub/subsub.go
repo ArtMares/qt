@@ -1,6 +1,6 @@
 package subsubcustom
 
-import "github.com/therecipe/qt/gui"
+import "github.com/ArtMares/qt/gui"
 
 var SubSubTestStructInstance *SubSubTestStruct
 

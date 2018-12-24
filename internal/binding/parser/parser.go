@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/sirupsen/logrus"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 var State = &struct {

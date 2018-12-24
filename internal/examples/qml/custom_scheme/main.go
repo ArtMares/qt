@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/network"
-	"github.com/therecipe/qt/qml"
-	"github.com/therecipe/qt/quick"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/network"
+	"github.com/ArtMares/qt/qml"
+	"github.com/ArtMares/qt/quick"
+	"github.com/ArtMares/qt/widgets"
 )
 
 func main() {

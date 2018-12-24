@@ -4,10 +4,10 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt/core"
 
-	"github.com/therecipe/qt/internal/examples/showcases/sia/controller"
-	wcontroller "github.com/therecipe/qt/internal/examples/showcases/sia/wallet/dialog/controller"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/controller"
+	wcontroller "github.com/ArtMares/qt/internal/examples/showcases/sia/wallet/dialog/controller"
 )
 
 var PathToSiac string

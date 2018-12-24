@@ -5,10 +5,10 @@ package main
 import (
 	"os"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/qml"
-	_ "github.com/therecipe/qt/sensors"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/gui"
+	"github.com/ArtMares/qt/qml"
+	_ "github.com/ArtMares/qt/sensors"
 )
 
 func main() {

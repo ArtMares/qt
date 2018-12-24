@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 type Function struct {

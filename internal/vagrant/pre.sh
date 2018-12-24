@@ -49,7 +49,7 @@ if [[ "$OS" == "darwin" ]]; then
   ln -s $HOME/gopath $HOME/Desktop/GOPATH
 fi
 
-go get -v github.com/therecipe/qt/cmd/...
+go get -v github.com/ArtMares/qt/cmd/...
 
 if [[ "$OS" == "darwin" ]]; then
   sudo xcode-select -s /Applications/Xcode.app/Contents/Developer

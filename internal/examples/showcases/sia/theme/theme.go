@@ -1,9 +1,9 @@
 package theme
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt/core"
 
-	"github.com/therecipe/qt/internal/examples/showcases/sia/theme/controller"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/theme/controller"
 )
 
 func init() { themeTemplate_QmlRegisterType2("ThemeTemplate", 1, 0, "ThemeTemplate") }

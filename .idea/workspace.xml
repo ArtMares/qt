@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c8118a3-fa53-46bf-9878-7e0c53f8c86a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidextras/androidextras.go" beforeDir="false" afterPath="$PROJECT_DIR$/androidextras/androidextras.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidextras/androidextras_android.go" beforeDir="false" afterPath="$PROJECT_DIR$/androidextras/androidextras_android.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidextras/utils-androidextras_android.go" beforeDir="false" afterPath="$PROJECT_DIR$/androidextras/utils-androidextras_android.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluetooth/bluetooth.go" beforeDir="false" afterPath="$PROJECT_DIR$/bluetooth/bluetooth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charts/charts.go" beforeDir="false" afterPath="$PROJECT_DIR$/charts/charts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/qtdeploy/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/qtdeploy/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/qtminimal/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/qtminimal/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/qtmoc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/qtmoc/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/qtrcc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/qtrcc/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/qtsetup/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/qtsetup/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datavisualization/datavisualization.go" beforeDir="false" afterPath="$PROJECT_DIR$/datavisualization/datavisualization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbus/dbus.go" beforeDir="false" afterPath="$PROJECT_DIR$/dbus/dbus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer/designer.go" beforeDir="false" afterPath="$PROJECT_DIR$/designer/designer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepad/gamepad.go" beforeDir="false" afterPath="$PROJECT_DIR$/gamepad/gamepad.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/gui.go" beforeDir="false" afterPath="$PROJECT_DIR$/gui/gui.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help/help.go" beforeDir="false" afterPath="$PROJECT_DIR$/help/help.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/body_input_cpp.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/body_input_cpp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/body_input_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/body_input_go.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/body_output_cpp.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/body_output_cpp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/body_output_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/body_output_go.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/enum.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/enum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/header.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/header.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/input.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/input.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/output.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/output.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/converter/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/converter/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.10.0/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.10.0/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.11.1/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.11.1/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.12.0/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.12.0/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.6.3/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.6.3/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.7.0/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.7.0/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.7.1/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.7.1/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.8.0/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.8.0/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/5.9.0/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/5.9.0/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/docs/mod.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/docs/mod.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/files/utils-androidextras_android.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/files/utils-androidextras_android.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/class.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/class.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/class_fix.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/class_fix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/function.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/function.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/function_fix.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/function_fix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/module.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/module.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/parser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/parser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/enum_cpp.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/enum_cpp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/enum_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/enum_go.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/function_cpp.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/function_cpp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/function_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/function_go.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/template_c.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/template_c.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/template_cgo.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/template_cgo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/template_cgo_qmake.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/template_cgo_qmake.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/template_cpp.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/template_cpp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/template_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/template_go.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/template_h.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/template_h.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/binding/templater/templater.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/binding/templater/templater.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ci/darwin.sh" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ci/darwin.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ci/linux.sh" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ci/linux.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/deploy/assets.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/deploy/assets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/deploy/build.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/deploy/build.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/deploy/bundle.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/deploy/bundle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/deploy/deploy.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/deploy/deploy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/deploy/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/deploy/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/minimal/minimal.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/minimal/minimal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/moc.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/moc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/qtmoc_imports.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/qtmoc_imports.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/qtmoc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/qtmoc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/b/b.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/b/b.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/c/c.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/c/c.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/d/d.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/d/d.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/sub.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/sub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/subb.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/subb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/subsub/subsub.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/subsub/subsub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/moc/test/sub/vendor/a/a.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/moc/test/sub/vendor/a/a.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/rcc/rcc.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/rcc/rcc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/setup/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/setup/check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/setup/generate.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/setup/generate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/setup/install.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/setup/install.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/setup/prep.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/setup/prep.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/setup/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/setup/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/setup/update.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/setup/update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/tools.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/tools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cmd/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/android/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/android/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/docker_job_template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/docker_job_template.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/js/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/js/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/js/Dockerfile.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/js/Dockerfile.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/linux/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/linux/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.56" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.56" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.59" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.59" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.arch" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.arch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.ubuntu_16_04" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.ubuntu_16_04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.ubuntu_18_04" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/linux/Dockerfile.ubuntu_18_04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.base" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.rpi1" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.rpi1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.rpi2" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.rpi2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.rpi3" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/rpi/Dockerfile.rpi3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/sailfish/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/sailfish/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.64_vivid" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.64_vivid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.64_xenial" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.64_xenial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.arm_vivid" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.arm_vivid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.arm_xenial" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/ubports/Dockerfile.arm_xenial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_32_shared/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_32_shared/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_32_static/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_32_static/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_64_shared/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_64_shared/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_64_static/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_64_static/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.32_shared" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.32_shared" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.32_static" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.32_static" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.64_shared" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.64_shared" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.64_static" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/windows_legacy/Dockerfile.64_static" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.32_shared" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.32_shared" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.32_static" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.32_static" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.56" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.56" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.56_xp" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.56_xp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.59" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.59" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.64_shared" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.64_shared" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.64_static" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.64_static" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.base" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.base" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.base_xp" beforeDir="false" afterPath="$PROJECT_DIR$/internal/docker/wine/Dockerfile.base_xp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/fluid/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/fluid/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/kirigami/demo/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/kirigami/demo/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/printslides/cmd/printslides/printslides.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/printslides/cmd/printslides/printslides.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/printslides/cmd/printslides/slideview.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/printslides/cmd/printslides/slideview.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/qml-material/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/qml-material/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/demo/middleware/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/demo/middleware/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/demo/photoalbum/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/demo/photoalbum/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/demo/todo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/demo/todo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/quickflux/init.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/sparkle/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/sparkle/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/stratifyqml/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/stratifyqml/demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/3rdparty/winsparkle/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/3rdparty/winsparkle/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/androidextras/jni/jni.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/androidextras/jni/jni.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/androidextras/jni/runnable.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/androidextras/jni/runnable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/androidextras/notification/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/androidextras/notification/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/androidextras/notification/notificationclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/androidextras/notification/notificationclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/bluetooth/picturetransfer/filetransfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/bluetooth/picturetransfer/filetransfer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/bluetooth/picturetransfer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/bluetooth/picturetransfer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/bluetooth/pingpong/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/bluetooth/pingpong/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/bluetooth/pingpong/pingpong.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/bluetooth/pingpong/pingpong.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/bluetooth/scanner/qmlscanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/bluetooth/scanner/qmlscanner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/framebuffer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/framebuffer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/interaction/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/interaction/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/jsonmodels/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/jsonmodels/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/quickitemtexture/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/quickitemtexture/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/quickitemtexture_wear/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/quickitemtexture_wear/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/textureandlight/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/textureandlight/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/threejs/cellphone/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/threejs/cellphone/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/threejs/oneqt/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/threejs/oneqt/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/canvas3d/threejs/planets/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/canvas3d/threejs/planets/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/charts/audio/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/charts/audio/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/charts/audio/widget.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/charts/audio/widget.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/charts/audio/xyseriesiodevice.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/charts/audio/xyseriesiodevice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/charts/dynamicspline/chart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/charts/dynamicspline/chart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/charts/dynamicspline/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/charts/dynamicspline/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/qml_demo/inputWidgets.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/qml_demo/inputWidgets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/qml_demo/itemViews.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/qml_demo/itemViews.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/qml_demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/qml_demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/buttons.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/buttons.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/containers.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/containers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/displayWidgets.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/displayWidgets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/inputWidgets.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/inputWidgets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/itemViews.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/itemViews.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/itemWidgets.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/itemWidgets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/layouts.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/layouts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/common/widgets_demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/common/widgets_demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/grpc/hello_world/hello_world.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/grpc/hello_world/hello_world.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/grpc/hello_world2/hello_world2.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/grpc/hello_world2/hello_world2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/advancedclock/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/advancedclock/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/analogclock/analogclock.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/analogclock/analogclock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/analogclock/rasterwindow.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/analogclock/rasterwindow.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/openglwindow/js.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/openglwindow/js.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/openglwindow/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/openglwindow/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/openglwindow/openglwindow.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/openglwindow/openglwindow.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/rasterwindow/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/rasterwindow/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/gui/rasterwindow/rasterwindow.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/gui/rasterwindow/rasterwindow.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/glwidget.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/glwidget.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/widget.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/widget.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/window.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/opengl/2dpainting/window.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/adding/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/adding/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/adding/person.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/adding/person.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/application/application.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/application/application.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/custom_scheme/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/custom_scheme/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/custom_scheme/reply.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/custom_scheme/reply.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/drawer_nav_x/applicationui.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/drawer_nav_x/applicationui.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/drawer_nav_x/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/drawer_nav_x/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter1-basics/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter1-basics/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter1-basics/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter1-basics/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter2-methods/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter2-methods/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter2-methods/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter2-methods/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter3-bindings/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter3-bindings/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter3-bindings/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter3-bindings/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter4-customPropertyTypes/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter4-customPropertyTypes/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter4-customPropertyTypes/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter4-customPropertyTypes/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/chapter4-customPropertyTypes/pieslice.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/chapter4-customPropertyTypes/pieslice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir/component/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir/component/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir_2/component/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir_2/component/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir_2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_dir_2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_go/component/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_go/component/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module/component/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module/component/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module_2/component/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module_2/component/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module_2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_module_2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_qml/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_qml/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_qml_go/component/piechart.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_qml_go/component/piechart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_qml_go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/extending/components/test_qml_go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/gallery/gallery.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/gallery/gallery.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/material/material.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/material/material.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/prop/prop.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/prop/prop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/prop2/prop2.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/prop2/prop2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qml/webview/webview.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qml/webview/webview.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qt3d/audio-visualizer-qml/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qt3d/audio-visualizer-qml/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/qt3d/audio-visualizer-qml/touchsettings.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/qt3d/audio-visualizer-qml/touchsettings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/bridge/bridge.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/bridge/bridge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/bridge2/bridge2.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/bridge2/bridge2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/calc/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/calc/calc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/cookies/cookies.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/cookies/cookies.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/dialog/dialog.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/dialog/dialog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/dynamic/dynamic.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/dynamic/dynamic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/errors/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/errors/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/hotreload/hotreload.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/hotreload/hotreload.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/listview/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/listview/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/listview/personmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/listview/personmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/photoviewer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/photoviewer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/sailfish/sailfish.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/sailfish/sailfish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/tableview/tableview.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/tableview/tableview.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/translate/translate.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/translate/translate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/quick/view/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/quick/view/view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sailfish/listview/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sailfish/listview/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sailfish/listview/personmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sailfish/listview/personmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sailfish/listview_variant/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sailfish/listview_variant/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sailfish/listview_variant/personmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sailfish/listview_variant/personmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sensors/accelbubble/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sensors/accelbubble/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/controller/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/controller/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/depgraph.sh" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/depgraph.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/actionButton.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/actionButton.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/button.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/button.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/controller/actionButton.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/controller/actionButton.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/controller/button.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/controller/button.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/controller/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/controller/files.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/controller/dialog.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/controller/dialog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/dialog.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/dialog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/files.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/folder.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/dialog/folder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/files.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/files/model/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/files/model/files.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/terminal/controller/terminal.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/terminal/controller/terminal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/terminal/terminal.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/terminal/terminal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/theme/controller/colorPicker.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/theme/controller/colorPicker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/theme/controller/theme.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/theme/controller/theme.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/theme/theme.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/theme/theme.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/controller/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/controller/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/controller/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/controller/view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/button.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/button.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/button.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/button.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/left.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/left.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/logo.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/logo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/progressBar.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/controller/progressBar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/left.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/left.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/logo.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/logo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/progressBar.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/left/progressBar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/color.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/color.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/color.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/color.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/lock.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/lock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/status.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/status.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/top.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/controller/top.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/lock.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/lock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/status.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/status.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/top.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/top/top.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/view/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/view/view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/button.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/button.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/controller/button.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/controller/button.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/controller/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/controller/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/controller/dialog.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/controller/dialog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/dialog.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/dialog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/receive.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/receive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/recover.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/recover.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/send.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/unlock.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/dialog/unlock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/model/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/model/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/showcases/sia/wallet/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail/dialog.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail/dialog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail/mainWindow.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail/mainWindow.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/controller/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/controller/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/main_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/main_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/model/listmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/model/listmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/model/sortmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/model/sortmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/model/viewmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/model/viewmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/album/album.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/album/album.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/album/album_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/album/album_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/artist/artist.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/artist/artist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/artist/artist_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/artist/artist_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/detail/detail.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/detail/detail.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/detail/detail_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/detail/detail_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/add_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/add_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/delete_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/dialog/delete_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/menubar.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/menubar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/view_qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/masterdetail_qml/view/view_qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/querymodel/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/querymodel/connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/querymodel/customsqlmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/querymodel/customsqlmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/querymodel/editablesqlmodel.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/querymodel/editablesqlmodel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/sql/querymodel/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/sql/querymodel/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/ubports/view/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/ubports/view/view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/ubports/view/view_vivid.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/ubports/view/view_vivid.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/ubports/view/view_xenial.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/ubports/view/view_xenial.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/uitools/calculator/calculator.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/uitools/calculator/calculator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webchannel/chatserver-go/chatserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webchannel/chatserver-go/chatserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webchannel/chatserver-go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webchannel/chatserver-go/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webchannel/shared/websocketclientwrapper.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webchannel/shared/websocketclientwrapper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webchannel/shared/websockettransport.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webchannel/shared/websockettransport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webchannel/standalone/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webchannel/standalone/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webchannel/webview/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webchannel/webview/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/webkit/browser/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/webkit/browser/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/bridge2/bridge2.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/bridge2/bridge2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/dropsite/dropsite.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/dropsite/dropsite.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/graphicsscene/graphicsscene.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/graphicsscene/graphicsscene.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/line_edits/line_edits.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/line_edits/line_edits.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/pixel_editor/pixel_editor.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/pixel_editor/pixel_editor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/renderer/renderer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/renderer/renderer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/share/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/share/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/share/shareutils.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/share/shareutils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/systray/systray.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/systray/systray.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/table/table.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/table/table.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/textedit/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/textedit/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/textedit/textedit.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/textedit/textedit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/treeview/treeview_dual/treeview_dual.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/treeview/treeview_dual/treeview_dual.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/treeview/treeview_filelist/treeview_filelist.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/treeview/treeview_filelist/treeview_filelist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/video_player/video_player.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/video_player/video_player.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/webengine/webengine.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/webengine/webengine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/examples/widgets/xkcd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/examples/widgets/xkcd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/internal/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/utils/gopath.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/utils/gopath.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/vagrant/docker/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/internal/vagrant/docker/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/vagrant/pre.bat" beforeDir="false" afterPath="$PROJECT_DIR$/internal/vagrant/pre.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/vagrant/pre.sh" beforeDir="false" afterPath="$PROJECT_DIR$/internal/vagrant/pre.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location/location.go" beforeDir="false" afterPath="$PROJECT_DIR$/location/location.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macextras/macextras.go" beforeDir="false" afterPath="$PROJECT_DIR$/macextras/macextras.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multimedia/multimedia.go" beforeDir="false" afterPath="$PROJECT_DIR$/multimedia/multimedia.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/network.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/network.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nfc/nfc.go" beforeDir="false" afterPath="$PROJECT_DIR$/nfc/nfc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/positioning/positioning.go" beforeDir="false" afterPath="$PROJECT_DIR$/positioning/positioning.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printsupport/printsupport.go" beforeDir="false" afterPath="$PROJECT_DIR$/printsupport/printsupport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purchasing/purchasing.go" beforeDir="false" afterPath="$PROJECT_DIR$/purchasing/purchasing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/qml.go" beforeDir="false" afterPath="$PROJECT_DIR$/qml/qml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick/quick.go" beforeDir="false" afterPath="$PROJECT_DIR$/quick/quick.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoteobjects/remoteobjects.go" beforeDir="false" afterPath="$PROJECT_DIR$/remoteobjects/remoteobjects.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sailfish/sailfish.go" beforeDir="false" afterPath="$PROJECT_DIR$/sailfish/sailfish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sailfish/sailfish_sailfish.go" beforeDir="false" afterPath="$PROJECT_DIR$/sailfish/sailfish_sailfish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/script.go" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripttools/scripttools.go" beforeDir="false" afterPath="$PROJECT_DIR$/scripttools/scripttools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scxml/scxml.go" beforeDir="false" afterPath="$PROJECT_DIR$/scxml/scxml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sensors/sensors.go" beforeDir="false" afterPath="$PROJECT_DIR$/sensors/sensors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialbus/serialbus.go" beforeDir="false" afterPath="$PROJECT_DIR$/serialbus/serialbus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialport/serialport.go" beforeDir="false" afterPath="$PROJECT_DIR$/serialport/serialport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speech/speech.go" beforeDir="false" afterPath="$PROJECT_DIR$/speech/speech.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/sql/sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/svg.go" beforeDir="false" afterPath="$PROJECT_DIR$/svg/svg.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testlib/testlib.go" beforeDir="false" afterPath="$PROJECT_DIR$/testlib/testlib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uitools/uitools.go" beforeDir="false" afterPath="$PROJECT_DIR$/uitools/uitools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webchannel/webchannel.go" beforeDir="false" afterPath="$PROJECT_DIR$/webchannel/webchannel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webengine/webengine.go" beforeDir="false" afterPath="$PROJECT_DIR$/webengine/webengine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webkit/webkit.go" beforeDir="false" afterPath="$PROJECT_DIR$/webkit/webkit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websockets/websockets.go" beforeDir="false" afterPath="$PROJECT_DIR$/websockets/websockets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets/widgets.go" beforeDir="false" afterPath="$PROJECT_DIR$/widgets/widgets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/xml.go" beforeDir="false" afterPath="$PROJECT_DIR$/xml/xml.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlpatterns/xmlpatterns.go" beforeDir="false" afterPath="$PROJECT_DIR$/xmlpatterns/xmlpatterns.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>therecipe/qt</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ArtMares/qt</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\d.dergachev\go\src\github.com\ArtMares\qt</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

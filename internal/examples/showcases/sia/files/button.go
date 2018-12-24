@@ -1,9 +1,9 @@
 package files
 
 import (
-	"github.com/therecipe/qt/quick"
+	"github.com/ArtMares/qt/quick"
 
-	"github.com/therecipe/qt/internal/examples/showcases/sia/files/controller"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/files/controller"
 )
 
 func init() { buttonTemplate_QmlRegisterType2("FilesTemplate", 1, 0, "ButtonTemplate") }

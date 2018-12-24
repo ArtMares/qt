@@ -1,9 +1,9 @@
 package dialog
 
 import (
-	"github.com/therecipe/qt/widgets"
+	"github.com/ArtMares/qt/widgets"
 
-	_ "github.com/therecipe/qt/internal/examples/showcases/sia/files/dialog/controller"
+	_ "github.com/ArtMares/qt/internal/examples/showcases/sia/files/dialog/controller"
 )
 
 type folderUploadTemplate struct {

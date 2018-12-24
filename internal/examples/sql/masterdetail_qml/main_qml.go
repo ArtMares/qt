@@ -6,13 +6,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/qml"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/qml"
+	"github.com/ArtMares/qt/widgets"
 
-	"github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/controller"
+	"github.com/ArtMares/qt/internal/examples/sql/masterdetail_qml/controller"
 
-	_ "github.com/therecipe/qt/internal/examples/sql/masterdetail_qml/view"
+	_ "github.com/ArtMares/qt/internal/examples/sql/masterdetail_qml/view"
 )
 
 const PRODUCTION = false

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/gui"
 )
 
 const (

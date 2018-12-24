@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/binding/parser"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 func GenModule(m, target string, mode int) {

@@ -1,4 +1,4 @@
-module github.com/therecipe/qt/internal
+module github.com/ArtMares/qt/internal
 
 require (
 	github.com/fsnotify/fsnotify v1.4.7 // indirect

@@ -1,9 +1,9 @@
 package left
 
 import (
-	"github.com/therecipe/qt/quick"
+	"github.com/ArtMares/qt/quick"
 
-	_ "github.com/therecipe/qt/internal/examples/showcases/sia/view/left/controller"
+	_ "github.com/ArtMares/qt/internal/examples/showcases/sia/view/left/controller"
 )
 
 func init() { leftTemplate_QmlRegisterType2("LeftTemplate", 1, 0, "LeftTemplate") }

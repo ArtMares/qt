@@ -1,6 +1,6 @@
 package model
 
-import "github.com/therecipe/qt/core"
+import "github.com/ArtMares/qt/core"
 
 type Transaction struct {
 	Status string

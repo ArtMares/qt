@@ -8,9 +8,9 @@ package datavisualization
 //#include "datavisualization.h"
 import "C"
 import (
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
+	"github.com/ArtMares/qt"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/gui"
 	"runtime"
 	"strings"
 	"unsafe"

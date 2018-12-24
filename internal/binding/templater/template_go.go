@@ -6,9 +6,9 @@ import (
 	"go/format"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/converter"
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/binding/converter"
+	"github.com/ArtMares/qt/internal/binding/parser"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 func GoTemplate(module string, stub bool, mode int, pkg, target, tags string) []byte {
@@ -653,7 +653,7 @@ import "C"
 				fmt.Fprintln(bb, "\"encoding/hex\"")
 
 			case "qt":
-				fmt.Fprintln(bb, "\"github.com/therecipe/qt\"")
+				fmt.Fprintln(bb, "\"github.com/ArtMares/qt\"")
 
 			case "js":
 				if parser.UseWasm() {
@@ -664,9 +664,9 @@ import "C"
 
 			default:
 				if mode == MOC {
-					fmt.Fprintf(bb, "std_%[1]v \"github.com/therecipe/qt/%[1]v\"\n", mlow)
+					fmt.Fprintf(bb, "std_%[1]v \"github.com/ArtMares/qt/%[1]v\"\n", mlow)
 				} else {
-					fmt.Fprintf(bb, "\"github.com/therecipe/qt/%v\"\n", mlow)
+					fmt.Fprintf(bb, "\"github.com/ArtMares/qt/%v\"\n", mlow)
 				}
 
 				if mode == MOC {

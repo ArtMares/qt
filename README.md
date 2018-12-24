@@ -7,7 +7,7 @@ Introduction
 
 This package allows you to write Qt applications entirely in Go and makes deploying them later very easy.
 
-[Gallery](https://github.com/therecipe/qt/wiki/Gallery) of applications making use of this package.
+[Gallery](https://github.com/ArtMares/qt/wiki/Gallery) of applications making use of this package.
 
 [WebAssembly Demo](https://therecipe.github.io/widgets_playground) | *[repo](https://github.com/therecipe/widgets_playground)*
 
@@ -21,14 +21,14 @@ Almost all Qt functions and classes are accessible from Go and you should be abl
 Resources
 ---------
 
--	[Installation on Windows](https://github.com/therecipe/qt/wiki/Installation-on-Windows)
--	[Installation on macOS](https://github.com/therecipe/qt/wiki/Installation-on-macOS)
--	[Installation on Linux](https://github.com/therecipe/qt/wiki/Installation-on-Linux)
--	[General Installation](https://github.com/therecipe/qt/wiki/Installation)
--	[Getting Started](https://github.com/therecipe/qt/wiki/Getting-Started)
--	[Wiki](https://github.com/therecipe/qt/wiki)
+-	[Installation on Windows](https://github.com/ArtMares/qt/wiki/Installation-on-Windows)
+-	[Installation on macOS](https://github.com/ArtMares/qt/wiki/Installation-on-macOS)
+-	[Installation on Linux](https://github.com/ArtMares/qt/wiki/Installation-on-Linux)
+-	[General Installation](https://github.com/ArtMares/qt/wiki/Installation)
+-	[Getting Started](https://github.com/ArtMares/qt/wiki/Getting-Started)
+-	[Wiki](https://github.com/ArtMares/qt/wiki)
 -	[Qt Documentation](https://doc.qt.io/qt-5/classes.html)
--	[FAQ](https://github.com/therecipe/qt/wiki/FAQ)
+-	[FAQ](https://github.com/ArtMares/qt/wiki/FAQ)
 -	[#qt-binding](https://gophers.slack.com/messages/qt-binding/details) Slack channel ([invite](https://invite.slack.golangbridge.org)\)
 
 Deployment Targets

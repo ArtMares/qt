@@ -1,9 +1,9 @@
 package view
 
 import (
-	"github.com/therecipe/qt/quick"
+	"github.com/ArtMares/qt/quick"
 
-	_ "github.com/therecipe/qt/internal/examples/showcases/sia/view/controller"
+	_ "github.com/ArtMares/qt/internal/examples/showcases/sia/view/controller"
 )
 
 func init() { stackTemplate_QmlRegisterType2("ViewTemplate", 1, 0, "StackTemplate") }

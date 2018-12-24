@@ -1,4 +1,4 @@
-module github.com/therecipe/qt/internal/examples
+module github.com/ArtMares/qt/internal/examples
 
 require (
 	cloud.google.com/go v0.34.0 // indirect

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/therecipe/qt/androidextras"
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt/androidextras"
+	"github.com/ArtMares/qt/core"
 )
 
 type NotificationClient struct {

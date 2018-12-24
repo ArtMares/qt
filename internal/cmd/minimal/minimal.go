@@ -10,13 +10,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/therecipe/qt/internal/binding/converter"
-	"github.com/therecipe/qt/internal/binding/parser"
-	"github.com/therecipe/qt/internal/binding/templater"
+	"github.com/ArtMares/qt/internal/binding/converter"
+	"github.com/ArtMares/qt/internal/binding/parser"
+	"github.com/ArtMares/qt/internal/binding/templater"
 
-	"github.com/therecipe/qt/internal/cmd"
+	"github.com/ArtMares/qt/internal/cmd"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 func Minimal(path, target, tags string) {
@@ -237,7 +237,7 @@ func Minimal(path, target, tags string) {
 		go func(f string) {
 			for _, c := range parser.State.ClassMap {
 				if strings.Contains(f, c.Name) &&
-					strings.Contains(f, fmt.Sprintf("github.com/therecipe/qt/%v", strings.ToLower(strings.TrimPrefix(c.Module, "Qt")))) {
+					strings.Contains(f, fmt.Sprintf("github.com/ArtMares/qt/%v", strings.ToLower(strings.TrimPrefix(c.Module, "Qt")))) {
 					exportClass(c, files)
 				}
 			}

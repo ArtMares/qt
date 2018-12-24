@@ -3,7 +3,7 @@
 package androidextras
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt/core"
 	"unsafe"
 )
 

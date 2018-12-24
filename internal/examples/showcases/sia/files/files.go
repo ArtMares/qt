@@ -1,11 +1,11 @@
 package files
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/quick"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/quick"
 
-	"github.com/therecipe/qt/internal/examples/showcases/sia/files/controller"
-	"github.com/therecipe/qt/internal/examples/showcases/sia/files/dialog"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/files/controller"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/files/dialog"
 )
 
 func init() { filesTemplate_QmlRegisterType2("FilesTemplate", 1, 0, "FilesTemplate") }

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/gui"
 
-	"github.com/therecipe/qt/internal/examples/showcases/sia/wallet/model"
+	"github.com/ArtMares/qt/internal/examples/showcases/sia/wallet/model"
 )
 
 var Controller *WalletController

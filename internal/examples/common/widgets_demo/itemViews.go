@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/gui"
-	"github.com/therecipe/qt/widgets"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/gui"
+	"github.com/ArtMares/qt/widgets"
 )
 
 func itemViews() {

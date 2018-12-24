@@ -8,9 +8,9 @@ package bluetooth
 //#include "bluetooth.h"
 import "C"
 import (
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
-	"github.com/therecipe/qt/network"
+	"github.com/ArtMares/qt"
+	"github.com/ArtMares/qt/core"
+	"github.com/ArtMares/qt/network"
 	"reflect"
 	"runtime"
 	"strings"

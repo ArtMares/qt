@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt/core"
 
-	maincontroller "github.com/therecipe/qt/internal/examples/showcases/sia/controller"
-	_ "github.com/therecipe/qt/internal/examples/showcases/sia/view/controller"
+	maincontroller "github.com/ArtMares/qt/internal/examples/showcases/sia/controller"
+	_ "github.com/ArtMares/qt/internal/examples/showcases/sia/view/controller"
 )
 
 func init() {

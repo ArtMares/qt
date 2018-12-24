@@ -1,9 +1,9 @@
 package sub
 
 import (
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt/core"
 
-	_ "github.com/therecipe/qt/internal/cmd/moc/test/sub/subsub"
+	_ "github.com/ArtMares/qt/internal/cmd/moc/test/sub/subsub"
 )
 
 var SomeType *someType

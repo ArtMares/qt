@@ -8,13 +8,13 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/therecipe/qt/internal/binding/templater"
+	"github.com/ArtMares/qt/internal/binding/templater"
 
-	"github.com/therecipe/qt/internal/cmd/deploy"
-	"github.com/therecipe/qt/internal/cmd/minimal"
-	"github.com/therecipe/qt/internal/cmd/moc"
+	"github.com/ArtMares/qt/internal/cmd/deploy"
+	"github.com/ArtMares/qt/internal/cmd/minimal"
+	"github.com/ArtMares/qt/internal/cmd/moc"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 func Test(target string, docker, vagrant bool, vagrantsystem string) {

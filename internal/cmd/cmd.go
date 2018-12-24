@@ -13,7 +13,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 var buildVersion = "no build version"
@@ -324,7 +324,7 @@ func virtual(arg []string, target, path string, writeCacheToHost bool, docker bo
 	}
 
 	if docker {
-		args = append(args, []string{"-i", fmt.Sprintf("therecipe/qt:%v", image)}...)
+		args = append(args, []string{"-i", fmt.Sprintf("ArtMares/qt:%v", image)}...)
 	} else {
 		for i, a := range args {
 			if a == "-e" {

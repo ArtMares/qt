@@ -8,8 +8,8 @@ package purchasing
 //#include "purchasing.h"
 import "C"
 import (
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt"
+	"github.com/ArtMares/qt/core"
 	"runtime"
 	"unsafe"
 )

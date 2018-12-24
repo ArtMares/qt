@@ -8,8 +8,8 @@ package network
 //#include "network.h"
 import "C"
 import (
-	"github.com/therecipe/qt"
-	"github.com/therecipe/qt/core"
+	"github.com/ArtMares/qt"
+	"github.com/ArtMares/qt/core"
 	"reflect"
 	"runtime"
 	"strings"

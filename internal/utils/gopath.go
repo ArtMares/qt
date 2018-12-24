@@ -9,7 +9,7 @@ import (
 	"sync"
 )
 
-const packageName = "github.com/therecipe/qt"
+const packageName = "github.com/ArtMares/qt"
 
 var mustGoPath string
 var mustGoPathMutex = new(sync.Mutex)
@@ -27,7 +27,7 @@ func GOBIN() string {
 func MustGoPath() string {
 	mustGoPathMutex.Lock()
 	if len(mustGoPath) == 0 {
-		mustGoPath = strings.TrimSpace(RunCmd(exec.Command("go", "list", "-f", "{{.Root}}", "github.com/therecipe/qt"), "get list gopath"))
+		mustGoPath = strings.TrimSpace(RunCmd(exec.Command("go", "list", "-f", "{{.Root}}", "github.com/ArtMares/qt"), "get list gopath"))
 		if len(mustGoPath) == 0 {
 			mustGoPath = GOPATH()
 		}

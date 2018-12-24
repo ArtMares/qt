@@ -1,9 +1,9 @@
 package terminal
 
 import (
-	"github.com/therecipe/qt/quick"
+	"github.com/ArtMares/qt/quick"
 
-	_ "github.com/therecipe/qt/internal/examples/showcases/sia/terminal/controller"
+	_ "github.com/ArtMares/qt/internal/examples/showcases/sia/terminal/controller"
 )
 
 func init() { terminalTemplate_QmlRegisterType2("TerminalTemplate", 1, 0, "TerminalTemplate") }

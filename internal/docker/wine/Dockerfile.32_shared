@@ -1,4 +1,4 @@
-FROM therecipe/qt:wine_base as base
+FROM ArtMares/qt:wine_base as base
 
 RUN apt-get -qq update && apt-get --no-install-recommends -qq -y install p7zip
 RUN GCC=i686-8.1.0-release-posix-dwarf-rt_v6-rev0.7z && cd $HOME/.wine/drive_c && curl -sL --retry 10 --retry-delay 60 -O https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-posix/dwarf/$GCC && p7zip -d $GCC && rm -f $GCC
@@ -70,7 +70,7 @@ ENV WINEPATH C:\\mingw32\\bin;C:\\go\\bin
 
 COPY --from=base $HOME/.wine/drive_c/go $HOME/.wine/drive_c/go
 COPY --from=base $HOME/.wine/drive_c/gopath/bin $HOME/.wine/drive_c/gopath/bin
-COPY --from=base $HOME/.wine/drive_c/gopath/src/github.com/therecipe/qt $HOME/.wine/drive_c/gopath/src/github.com/therecipe/qt
+COPY --from=base $HOME/.wine/drive_c/gopath/src/github.com/ArtMares/qt $HOME/.wine/drive_c/gopath/src/github.com/ArtMares/qt
 COPY --from=base $HOME/.wine/drive_c/mingw32 $HOME/.wine/drive_c/mingw32
 COPY --from=base $HOME/.wine/drive_c/msys64/mingw32/bin $HOME/.wine/drive_c/msys64/mingw32/bin
 COPY --from=base $HOME/.wine/drive_c/msys64/mingw32/include $HOME/.wine/drive_c/msys64/mingw32/include
@@ -95,7 +95,7 @@ RUN echo 'REGEDIT4\n\n\
 RUN wine $GOPATH\\bin\\qtsetup prep
 RUN wine $GOPATH\\bin\\qtsetup check
 RUN wine $GOPATH\\bin\\qtsetup generate
-RUN cd $HOME/.wine/drive_c/gopath/src/github.com/therecipe/qt/internal/examples/widgets/line_edits && wine qtdeploy build windows && rm -rf ./deploy
+RUN cd $HOME/.wine/drive_c/gopath/src/github.com/ArtMares/qt/internal/examples/widgets/line_edits && wine qtdeploy build windows && rm -rf ./deploy
 
 RUN echo "#!/bin/bash\nexport GOPATH=\$(winepath -0 -w \$(echo \$GOPATH | sed -e 's/:/ /g') | sed -e 's/Z:/;Z:/2g')" > /usr/bin/qtpath && chmod +x /usr/bin/qtpath
 RUN echo '#!/bin/bash\nsource qtpath\nwine qtdeploy "$@"' > /usr/bin/qtdeploy && chmod +x /usr/bin/qtdeploy

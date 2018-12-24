@@ -3,7 +3,7 @@ package parser
 import (
 	"strings"
 
-	"github.com/therecipe/qt/internal/utils"
+	"github.com/ArtMares/qt/internal/utils"
 )
 
 type Module struct {

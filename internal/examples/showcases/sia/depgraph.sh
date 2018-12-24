@@ -1,2 +1,2 @@
 #!/bin/bash
-$GOPATH/bin/godepgraph -horizontal -s -i=github.com/therecipe/qt,github.com/therecipe/qt/core,github.com/therecipe/qt/gui,github.com/therecipe/qt/widgets,github.com/therecipe/qt/qml,github.com/therecipe/qt/quick,github.com/therecipe/qt/xml github.com/therecipe/qt/internal/examples/showcases/sia | dot -Tpng -o depgraph.png
+$GOPATH/bin/godepgraph -horizontal -s -i=github.com/ArtMares/qt,github.com/ArtMares/qt/core,github.com/ArtMares/qt/gui,github.com/ArtMares/qt/widgets,github.com/ArtMares/qt/qml,github.com/ArtMares/qt/quick,github.com/ArtMares/qt/xml github.com/ArtMares/qt/internal/examples/showcases/sia | dot -Tpng -o depgraph.png
